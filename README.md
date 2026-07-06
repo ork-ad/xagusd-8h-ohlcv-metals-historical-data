@@ -1,6 +1,6 @@
 # XAGUSD 8h OHLCV Metals Historical Data — Free Sample
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-587_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Dataset rows](https://img.shields.io/badge/full_dataset-14_037_rows-blue)](https://ork.ad/) [![Updated](https://img.shields.io/badge/weekly_update-every_Sunday-green)](https://ork.ad/) [![Full data on ork.ad](https://img.shields.io/badge/download-ork.ad-orange)](https://ork.ad/)
 
 ### → [**Download the full XAGUSD dataset on ork.ad**](https://ork.ad/)
 
@@ -24,11 +24,11 @@
 - **Ultra high-quality 8h OHLCV** for **Silver / US Dollar** (Precious metals)
 - **Near-continuous precious-metals liquidity across global sessions**
 - **Clean CSV schema** — `time, open, high, low, close, volume` (no gaps in formatting)
-- **Free evaluation sample** on GitHub (`8h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **587** `8h` rows in the full archive
+- **Free evaluation sample** on GitHub (`8h`) · **13 timeframes** on [ork.ad](https://ork.ad/) · **14,037** `8h` rows in the full archive
 - Built for **backtesting**, **algorithmic trading** and **quantitative finance** workflows
 - **Weekly refresh** — [ork.ad](https://ork.ad/) every **Sunday**; GitHub `8h` sample updated in sync
 
-> **Sample on GitHub** · `XAGUSD_8h.csv` (280 rows, `2026-03-03` → `2026-07-02`). **Full archive on [ork.ad](https://ork.ad/)** — **587** `8h` rows (~0.03 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2014-12-11` → `2026-07-02`.
+> **Sample on GitHub** · `XAGUSD_8h.csv` (617 rows, `2025-10-03` → `2026-07-03`). **Full archive on [ork.ad](https://ork.ad/)** — **14,037** `8h` rows (~0.75 MB), **13 timeframes** (``1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W``), `2009-02-24` → `2026-07-03`.
 
 ## Download sample
 
@@ -44,9 +44,9 @@ Interactive chart & stats: **[https://ork-ad.github.io/xagusd-8h-ohlcv-metals-hi
 |---|--:|---|
 | Instrument | Silver / US Dollar · Precious metals | Silver / US Dollar · Precious metals |
 | Timeframes | `8h` (sample) | **13** — `1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W` |
-| 8h rows | 280 | **587** |
-| Size | 0.02 MB | ~0.03 MB |
-| Period | `2026-03-03` → `2026-07-02` | `2014-12-11` → `2026-07-02` |
+| 8h rows | 617 | **14,037** |
+| Size | 0.03 MB | ~0.75 MB |
+| Period | `2025-10-03` → `2026-07-03` | `2009-02-24` → `2026-07-03` |
 | File | `XAGUSD_8h.csv` | ZIP on [ork.ad](https://ork.ad/) |
 | Updates | Weekly (Sunday) — GitHub sample | Weekly (Sunday) — all timeframes |
 
@@ -73,21 +73,21 @@ First and latest rows from the GitHub sample **`XAGUSD_8h.csv`**:
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
-| 2026-03-03 00:00:00 | 88.4739 | 90.2149 | 82.7878 | 86.9679 | 307606.0 |
-| 2026-03-03 08:00:00 | 86.9679 | 87.5549 | 77.7538 | 82.3908 | 900334.0 |
-| 2026-03-03 16:00:00 | 82.3908 | 83.9328 | 81.3108 | 82.8248 | 580674.0 |
-| 2026-03-04 00:00:00 | 82.8248 | 85.3629 | 81.7098 | 84.6698 | 410227.0 |
-| 2026-03-04 08:00:00 | 84.6698 | 86.7279 | 82.9868 | 84.0658 | 491211.0 |
+| 2025-10-03T16:00:00Z | 47.837 | 48.096 | 47.787 | 47.949 | 36938.0 |
+| 2025-10-05T16:00:00Z | 47.949 | 48.336 | 47.946 | 48.33 | 48438.0 |
+| 2025-10-06T00:00:00Z | 48.33 | 48.748 | 48.227 | 48.609 | 117648.0 |
+| 2025-10-06T08:00:00Z | 48.609 | 48.75 | 48.057 | 48.634 | 256553.0 |
+| 2025-10-06T16:00:00Z | 48.634 | 48.713 | 48.238 | 48.328 | 60214.0 |
 
 **Last rows**
 
 | time | open | high | low | close | volume |
 | --- | --- | --- | --- | --- | --- |
 | time | open | high | low | close | volume |
-| 2026-07-01 08:00:00 | 57.539 | 60.851 | 57.352 | 60.039 | 328514.0 |
-| 2026-07-01 16:00:00 | 60.039 | 60.265 | 58.888 | 58.941 | 105339.0 |
-| 2026-07-02 00:00:00 | 58.941 | 60.254 | 58.751 | 59.236 | 218043.0 |
-| 2026-07-02 08:00:00 | 59.236 | 61.987 | 59.144 | 60.943 | 389038.0 |
+| 2026-07-02T08:00:00Z | 59.68 | 61.923 | 59.31 | 60.292 | 430562.0 |
+| 2026-07-02T16:00:00Z | 60.292 | 62.313 | 60.201 | 62.061 | 174489.0 |
+| 2026-07-03T00:00:00Z | 62.061 | 62.743 | 61.963 | 62.399 | 163287.0 |
+| 2026-07-03T08:00:00Z | 62.399 | 62.545 | 61.757 | 62.231 | 116840.0 |
 
 ## Schema
 
@@ -145,9 +145,9 @@ print(pf.stats())
 
 ## Download full data
 
-The complete **XAGUSD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **587** rows at `8h`, plus all other timeframes in the same ZIP.
+The complete **XAGUSD** archive on **[ork.ad](https://ork.ad/)** includes **13 OHLCV timeframes** (`1m`, `3m`, `5m`, `15m`, `30m`, `1H`, `2H`, `4H`, `8H`, `12H`, `16H`, `1D`, `1W`) — **14,037** rows at `8h`, plus all other timeframes in the same ZIP.
 
 **[→ Get the full XAGUSD dataset on ork.ad](https://ork.ad/)**
 
 ---
-*GetData · XAGUSD 8h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-04 UTC*
+*GetData · XAGUSD 8h OHLCV sample on GitHub · Full historical data on [ork.ad](https://ork.ad/) · 2026-07-06 UTC*
